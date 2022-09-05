@@ -1,0 +1,69 @@
+html {
+    background-color: #aba5a5;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#barra {
+    float: right;
+}
+
+#barra li{
+    display: inline-block;
+    margin: 8px;
+}
+
+#barra #Registre-se {
+    background-color: #000000;
+    margin-right: 25px;
+    padding: 7px 15px;
+    border-radius: 3px;
+    font-weight: bold;
+    color: white;
+}
+*{
+    margin: 0;
+    padding: 0;
+}       
+#titulo{
+    font: 3em sans-serif;
+    color: #000000;
+    margin-left: 10%;
+    margin-top: 6px;
+}
+
+#subtitulo{
+    font: 1.5em sans-serif;
+    color: #000000;
+    margin-left: 9.9%;
+}
+
+#texto1{
+    font: 4em sans-serif;
+    color: bisque;
+    margin-left: 24%;
+    margin-top: 11px;
+}
+#texto2{
+    font: 1.5em small-caption;
+    margin-left: 32px;
+    margin-top: 5%;
+}
