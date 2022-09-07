@@ -1,69 +1,105 @@
-html {
-    background-color: #aba5a5;
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto';
-}
-
-ul {
-    list-style: none;
-}
-
 body {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    font-family: "SoDo Sans SemiBold", Helvetica Neue, Helvetica, Arial,
+        sans-serif;
 }
-a {
-    text-decoration: none;
-    color: white;
+.barranavegacao:hover {
+    box-shadow: 0px 3px 4px 0px #3c3c3c;
+    -webkit-box-shadow: 0px 3px 4px 0px #515151;
+    -moz-box-shadow: 0px 3px 4px 0px rgb(230, 230, 250);
+}
+.navbar {
+    max-width: 1560px;
+    padding: 1px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
 }
 
-a:hover{
+.barraesquerda svg {
+    width: 50px;
+    margin-right: 20px;
+    color: #000;
+    text-decoration: none;
+}
+
+.menu{
+    color: #000;
+    text-decoration: none;
+} 
+.menu:hover{
+    text-decoration: underline;
+	color: #515151;
+    text-transform: uppercase;
+}
+.barraesquerda div {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+
+.Github{
+    text-decoration: none;
+    color: #000;
+    margin: auto;
+}
+
+.Github {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+.Github:hover {
+    text-transform: uppercase;
+    color: #000;
+}
+
+.barraesquerda,
+.barradireita {
+    display: flex;
+    align-items: center;
+}
+
+.barraesquerda > *,
+.barradireita > * {
+    margin: 10px;
+}
+
+.ladodireito {
+    color: white;
+    font-weight: 500;
+    border: 1px solid black;
+    border-radius: 40px;
+    padding: 5px 20px 5px 20px;
+    background-color: rgb(31,31,31);
+}
+
+.ladodireito:hover{
     text-decoration: underline;
 }
 
-#barra {
-    float: right;
+#calculadora div{
+    left: -400px;
 }
-
-#barra li{
-    display: inline-block;
-    margin: 8px;
-}
-
-#barra #Registre-se {
-    background-color: #000000;
-    margin-right: 25px;
-    padding: 7px 15px;
-    border-radius: 3px;
-    font-weight: bold;
-    color: white;
-}
-*{
-    margin: 0;
-    padding: 0;
-}       
-#titulo{
-    font: 3em sans-serif;
-    color: #000000;
-    margin-left: 10%;
-    margin-top: 6px;
-}
-
-#subtitulo{
-    font: 1.5em sans-serif;
-    color: #000000;
-    margin-left: 9.9%;
-}
-
 #texto1{
-    font: 4em sans-serif;
-    color: bisque;
-    margin-left: 24%;
-    margin-top: 11px;
-}
-#texto2{
-    font: 1.5em small-caption;
-    margin-left: 32px;
+    color: #000;
+    text-decoration: none;
     margin-top: 5%;
+    margin-left: 54%;
+    font-size: 40px;
+    font-family: "SoDo Sans SemiBold", Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+#texto1:hover{
+	color: #515151;
+    text-decoration: underline;
+}
+.texto1{
+    color: #000;
+    text-decoration: none;
+    margin-top: 5%;
+    margin-left: 50%;
+    font-size: 20px;
+    font-family: "SoDo Sans SemiBold", Helvetica Neue, Helvetica, Arial, sans-serif;
 }
